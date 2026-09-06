@@ -59,3 +59,5 @@
 完成后，在任一工作目录执行：`git worktree list`。
 
 main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处理修复。
+
+revert-practice：这是一条将通过 git revert 安全撤销的练习文本。
