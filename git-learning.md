@@ -12,7 +12,7 @@
 
 ## 1. 工作区、暂存区、提交
 
-填写：我理解 `git add` 的作用是：____________________________
+填写：我理解 `git add` 的作用是：选择当前文件的内容快照，放入下一次提交的暂存区。
 
 依次执行：`git diff` → `git add git-learning.md` → `git diff --staged` → `git commit -m "docs: 记录暂存区理解"`。
 
