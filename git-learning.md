@@ -20,7 +20,7 @@
 
 先执行：`git switch -c feature/greeting`。
 
-在主线填写：发布标题：稳定版：基础功能稳定可用。
+发布标题：稳定版欢迎页：基础功能稳定可用，欢迎开始学习 Git！
 
 填写后执行：`git add git-learning.md`，再执行 `git commit -m "feat: 添加欢迎语方案"`。
 
