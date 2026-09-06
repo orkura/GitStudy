@@ -44,7 +44,7 @@
 
 执行：`git log --oneline --graph --decorate --all`。
 
-填写：我观察到功能分支和主线如何汇合：____________________________
+填写：我观察到功能分支和主线如何汇合：合并提交有两个父提交，把主线与功能分支的历史重新连接。
 
 执行：`git add git-learning.md`，然后执行 `git commit -m "docs: 复盘 Git 分支练习"`。
 
