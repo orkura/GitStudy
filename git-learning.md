@@ -57,3 +57,5 @@
 执行：`git add git-learning.md`，然后执行 `git commit -m "docs: 记录 worktree 练习"`。
 
 完成后，在任一工作目录执行：`git worktree list`。
+
+main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处理修复。
