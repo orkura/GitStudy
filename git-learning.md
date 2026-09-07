@@ -59,3 +59,9 @@
 完成后，在任一工作目录执行：`git worktree list`。
 
 main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处理修复。
+
+## 6. Pull Request 云端合并测试
+
+本段内容位于 `test/pr-merge` 分支，用来验证：不能直接推送到 `main`，而是先推送功能分支、创建 Pull Request，再在 GitHub 网页端手动合并。
+
+测试结果：等待在 GitHub 的 Pull Request 页面确认合并。
