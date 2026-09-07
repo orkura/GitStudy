@@ -79,3 +79,5 @@ main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处�
 然后执行：`git rebase -i main`，打开本分支相对 `main` 的提交列表。
 
 保留第一行的 `pick`，把其余五行改为 `squash` 或简写 `s`。
+
+保存后统一编辑提交说明，并用 `git log --oneline main..HEAD` 检查结果。
