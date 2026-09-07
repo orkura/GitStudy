@@ -64,4 +64,8 @@ main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处�
 
 本段内容位于 `test/pr-merge` 分支，用来验证：不能直接推送到 `main`，而是先推送功能分支、创建 Pull Request，再在 GitHub 网页端手动合并。
 
-测试结果：等待在 GitHub 的 Pull Request 页面确认合并。
+测试结果：已通过 Pull Request 合并到 `main`。
+
+## 7. 第二轮：由操作者手动合并
+
+本次修改继续提交到 `test/pr-merge`。Codex 仅负责修改、提交和推送；后续 Pull Request 的创建与合并由操作者在 GitHub 上亲自完成。
