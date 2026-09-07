@@ -69,3 +69,5 @@ main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处�
 ## 7. 第二轮：由操作者手动合并
 
 本次修改继续提交到 `test/pr-merge`。Codex 仅负责修改、提交和推送；后续 Pull Request 的创建与合并由操作者在 GitHub 上亲自完成。
+
+## 8. `git rebase -i` 压缩提交练习
