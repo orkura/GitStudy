@@ -75,3 +75,5 @@ main-note：主线继续推进，而 hotfix 分支仍在独立 worktree 中处�
 本节故意由多个细小提交组成，稍后会把它们整理为一个清晰提交。
 
 先执行：`git log --oneline main..HEAD`，确认当前分支上有六条待整理的提交。
+
+然后执行：`git rebase -i main`，打开本分支相对 `main` 的提交列表。
